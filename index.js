@@ -9,6 +9,6 @@ function nowServing(currLine){
     if(!currLine.length){
     return "There is nobody waiting to be served!"}
     else {
-      return currLine.slice(currLine[i])
+      return currLine.slice()
   }
 }
