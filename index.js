@@ -5,3 +5,12 @@ function takeANumber(currLine, newName){
   return `Welcome, ${newName}. You are number ${currLine.length} in line.`}
 }
 
+function nowServing(currLine){
+  for(let i = 0; i < currLine.length; i++){
+    if(!currLine.length){
+      return "There is nobody waiting to be served"
+    } else {
+      return currLine.slice(currLine[i])
+    }
+  }
+}
