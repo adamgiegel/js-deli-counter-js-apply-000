@@ -21,5 +21,6 @@ function currentLine(currLine){
   for(let i = 0; i < currLine.length; i++){
       newStr += i+1 + '. ' + currLine[i] + ', '
     }
-    return "The line is currently: " + newStr.splice
+    newStr.slice(0, -1)
+    return "The line is currently: " + newStr
 }
