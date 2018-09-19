@@ -19,7 +19,7 @@ function currentLine(currLine){
     } 
   let newStr = ''
   for(let i = 1; i < currLine.length; i++){
-      newStr += "The line is currently:" + i + '.' + currLine[i]
+      newStr += i + '.' + currLine[i]
     }
-    return newStr
+    return "The line is currently: " + newStr
 }
