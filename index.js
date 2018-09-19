@@ -13,12 +13,12 @@ function nowServing(currLine){
   }
 }
 
-// function currentLine(currLine){
-//   for(let i = 0; i < currLine.length; i++)
-//     if(!currLine.length){
-//       return "The line is currently empty."
-//     } else {
+function currentLine(currLine){
+  for(let i = 0; i < currLine.length; i++)
+    if(!currLine.length){
+      return "The line is currently empty."
+    } else {
       
-//     }
-//   }
-// }
+    }
+  }
+}
