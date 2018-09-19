@@ -12,3 +12,13 @@ function nowServing(currLine){
       return currLine.slice(0)
   }
 }
+
+function currentLine(currLine){
+  for(let i = 0; i < currLine.length; i++)
+    if(!currLine.length){
+      return "The line is currently empty."
+    } else {
+      
+    }
+  }
+}
