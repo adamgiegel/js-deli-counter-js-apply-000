@@ -9,7 +9,7 @@ function nowServing(currLine){
     if(!currLine.length){
     return "There is nobody waiting to be served!"}
     else {
-      return currLine.slice(0)
+      return "Currently serving" + currLine.shift()
   }
 }
 
