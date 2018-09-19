@@ -18,8 +18,8 @@ function currentLine(currLine){
       return "The line is currently empty."
     } 
   let newStr = ''
-  for(let i = 0; i < currLine.length-1; i++){
-      newStr += i + '.' + currLine[i]
+  for(let i = 0; i < currLine.length; i++){
+      newStr += i+1 + '. ' + currLine[i]
     }
     return "The line is currently: " + newStr
 }
