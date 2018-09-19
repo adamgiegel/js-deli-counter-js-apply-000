@@ -6,11 +6,9 @@ function takeANumber(currLine, newName){
 }
 
 function nowServing(currLine){
-  for(let i = 0; i < currLine.length; i++){
     if(!currLine.length){
-      return "There is nobody waiting to be served"
-    } else {
+    return "There is nobody waiting to be served!"}
+    for(let i = 0; i < currLine.length; i++){
       return currLine.slice(currLine[i])
-    }
   }
 }
