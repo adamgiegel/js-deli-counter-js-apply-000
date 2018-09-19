@@ -8,7 +8,7 @@ function takeANumber(currLine, newName){
 function nowServing(currLine){
     if(!currLine.length){
     return "There is nobody waiting to be served!"}
-    for(let i = 0; i < currLine.length; i++){
+    else {
       return currLine.slice(currLine[i])
   }
 }
